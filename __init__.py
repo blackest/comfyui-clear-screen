@@ -7,7 +7,7 @@ NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
 
 
-@server.PromptServer.instance.routes.get("/utils/cls")
+@server.PromptServer.instance.routes.get("/utils/cls_mps")
 async def clear_console(request):
 
     if os.name == "nt":
